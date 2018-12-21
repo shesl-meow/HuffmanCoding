@@ -88,7 +88,7 @@ std::string HuffmanCoding::read_coding_tree()const
   return std::string(Display::CodingMap(this));
 }
 
-std::string HuffmanCoding::read_char_times()const
+std::string HuffmanCoding::read_char_table()const
 {
   std::stringstream ss;
   ss << std::endl << std::string(this->char_times.size()*8, '-') + '-' << std::endl;

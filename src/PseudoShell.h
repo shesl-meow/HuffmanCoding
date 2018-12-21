@@ -27,7 +27,7 @@ void help();
 void assign();
 void build(){ hc.init_coding_tree(); }
 void text(){ cout << hc.read_text(); }
-void table(){ cout << hc.read_char_times(); }
+void table(){ cout << hc.read_char_table(); }
 void tree(){ cout << hc.read_coding_tree(); }
 void symbol();
 void encode();
@@ -38,11 +38,11 @@ void ExeCommand(string pseudo_command)
   switch (hash_(pseudo_command.c_str())) {
     case "help"_hash: help(); break;
     case "assign"_hash: assign(); break;
- 	case "build"_hash: build(); break;
+ 	  case "build"_hash: build(); break;
     case "text"_hash: text(); break;
     case "table"_hash: table(); break;
     case "tree"_hash: tree(); break;
-	case "symbol"_hash: symbol(); break;
+	  case "symbol"_hash: symbol(); break;
     case "encode"_hash: encode(); break;
     case "decode"_hash: decode(); break;
     case "exit"_hash: exit(0); break;
@@ -56,11 +56,11 @@ void help()
   string manual=
     "[help]  : see help manual.\n"
     "[assign]: assign string for huffman encoding.\n"
-	"[build] : build a haffuman tree from the current text.\n"
+	  "[build] : build a haffuman tree from the current text.\n"
     "[text]  : read current text string for encoding or decode result.\n"
     "[table] : read the character occurence times.\n"
     "[tree]  : read huffman coding tree.\n"
-	"[symbol]: set the encode character for encode.\n";
+	  "[symbol]: set the encode character for encode.\n"
     "[encode]: begin to encode text via huffman coding.\n"
     "[decode]: begin to decode text via huffman coding.\n";
   cout << manual;
