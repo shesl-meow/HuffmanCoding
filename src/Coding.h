@@ -41,6 +41,6 @@ namespace Coding{
     const Tree::HuffmanTree<uint>* get_coding_tree()const{ return &(this->coding_tree); }
     const std::map<char, const Tree::BinTree<uint>* >* get_char_nodes()const{ return &(this->char_nodes);}
     std::string read_coding_tree()const;
-    std::string read_char_times()const;
+    std::string read_char_table()const;
   };
 }
