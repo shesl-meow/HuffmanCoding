@@ -2,9 +2,9 @@
 
 ## DEMO
 
-Windows Mingw 运行效果如下：
+运行效果如下：
 
-![demo](./demo.gif)
+[![asciicast](https://asciinema.org/a/229724.png)](https://asciinema.org/a/229724)
 
 ## 运行说明
 
