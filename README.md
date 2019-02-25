@@ -2,9 +2,9 @@
 
 ## DEMO
 
-Windows Mingw 运行效果如下：
+运行效果如下：
 
-![demo](./demo.gif)
+<script src="https://asciinema.org/a/229724.js" id="asciicast-229724" data-autoplay="true" async></script>
 
 ## 运行说明
 
